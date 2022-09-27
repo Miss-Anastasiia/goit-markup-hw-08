@@ -9,8 +9,10 @@
 }
 
 .portfolio__link {
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
+    height: 100%;
     transition: box-shadow var(--transition);
     
         &:hover,
@@ -28,6 +30,7 @@
     border: 1px solid#EEEEEE;
     border-top: none;
     padding: 20px 24px;
+    flex-grow: 1;
 }
 
 .portfolio__title {
@@ -77,28 +80,12 @@
     .portfolio__item {
         flex-basis: calc((100% - 30px) / 2);
     }
-    .portfolio__first-card {
-        padding-bottom: 56px;
-    }
 }
 
 @media screen and (min-width: 1200px) {
     .portfolio__item {
         flex-basis: calc((100% - 60px) / 3);
 }
-    .portfolio__first-card{
-        padding-bottom: 20px;
-    }
 }
-
-
-//  .portfolio {
-//      display: flex;
-//      flex-wrap: wrap;
-//      gap: 30px;
-
-//  }
-//.porfolio-item
-// flex-basis: calc((100% - 60px) / 3);
 
 
