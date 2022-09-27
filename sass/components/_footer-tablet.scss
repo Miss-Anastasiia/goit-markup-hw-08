@@ -1,0 +1,14 @@
+@media screen and (min-width: 768px) {
+    .footer-tablet {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-around;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .footer-tablet {
+        display: flex;
+        text-align: left;
+        justify-content: center;
+    }
+}

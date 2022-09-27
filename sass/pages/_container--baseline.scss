@@ -1,0 +1,13 @@
+@media screen and (min-width: 320px) {
+    .container--baseline {
+        display: block;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1200px) {
+     .container--baseline {
+        display: flex;
+        align-items: baseline;
+    }
+}
+

@@ -1,0 +1,13 @@
+.footer-logo {
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: #000000;
+  text-decoration: none;
+  color: var(--primary-white-color);
+}
+
+.footer-logo__accent {
+  color: var(--primary-blue-color);
+}/*# sourceMappingURL=footer-logo.css.map */

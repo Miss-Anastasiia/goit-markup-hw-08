@@ -1,0 +1,10 @@
+.container--flex {
+    display: flex;
+    align-items: center;}
+
+@media screen and (max-width: 767px) {
+.container--flex {
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}}

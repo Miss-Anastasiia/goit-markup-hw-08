@@ -1,0 +1,29 @@
+.page-header {
+    border-bottom: 1px solid #ececec;
+}
+@media screen and (max-width: 767px) {
+   .open-menu-btn {
+    line-height: 0;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+.open-menu-btn__icon {
+    width: 40px;
+    height: 40px;
+} 
+}
+@media screen and (min-width: 768px) {
+    .open-menu-btn {
+        display: none;
+    }
+    .page-navigatior {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .page-header{
+    padding: 0;}
+}

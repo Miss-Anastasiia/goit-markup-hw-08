@@ -1,0 +1,40 @@
+.logo {
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #000000;
+    text-decoration: none;
+    
+}
+.logo__accent {
+    color: var(--primary-blue-color);
+}
+
+@media screen and (min-width: 767px) {
+    .logo {
+        margin-right: 87px;}
+}
+
+@media screen and (min-width: 1200px) {
+    .logo {
+        margin-right: 93px;}
+}
+
+
+
+/*.logo {
+    font-family: Raleway, cursive;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #000000;
+    text-decoration: none;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+}
+
+.logo__accent {
+    color: var(--primary-blue-color);
+}*/
