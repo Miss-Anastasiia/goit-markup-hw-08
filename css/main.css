@@ -744,7 +744,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  text-align: center;
   margin-bottom: 30px;
   color: var(--p-text);
 }
@@ -775,7 +774,7 @@ body {
   fill: var(--primary-white-color);
 }
 
-.check-success {
+.check-border {
   position: absolute;
   left: 40px;
   width: 16px;
@@ -794,7 +793,7 @@ body {
           align-items: center;
   cursor: pointer;
 }
-.modal-check__input:checked ~ .check-success {
+.modal-check__input:checked ~ .check-border {
   display: none;
 }
 
@@ -840,7 +839,7 @@ body {
   .modal-check__checkbox {
     left: 52px;
   }
-  .check-success {
+  .check-border {
     left: 52px;
   }
   .modal-check__text {

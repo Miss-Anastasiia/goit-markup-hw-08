@@ -85,7 +85,6 @@
 .modal-check {
     display: flex;
     justify-content: center;
-    text-align: center;
     margin-bottom: 30px;
     color: var(--p-text);
 }
@@ -116,7 +115,7 @@
     fill: var(--primary-white-color);
 }
 
-.check-success {
+.check-border {
     position: absolute;
     left: 40px;
     width: 16px;
@@ -171,7 +170,7 @@
     .modal-check__checkbox {
     left: 52px;
 }
-.check-success {
+.check-border {
     left: 52px;
 }
 .modal-check__text {
